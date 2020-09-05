@@ -8,6 +8,12 @@ This spectrum simulation program reads molecule’s ideal vibration spectrum fro
 
 Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
 
+The GUI:
+
+![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
+
+The structure of the code: 
+
 ![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
 
 ## Files
