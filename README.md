@@ -4,7 +4,7 @@ Project work for the python programming basic course 2 (CS-A1121, Aalto Universi
 
 ## Introduction
 
-This spectrum simulation program reads molecule’s ideal vibration spectrum from a text file such as
+This spectrum simulation program reads molecule’s ideal vibration spectrum (frequency X, intensity Y) from a text file such as
 
 ![Text file](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/text%20file%20example.png)
 
