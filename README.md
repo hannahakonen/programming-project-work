@@ -22,9 +22,19 @@ where x0 is the frequency X from the input file and the standard deviation is ca
 
 ![ro](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/ro.png)
 
+Single ideal peak (X, Y) is widened by
 
+![y](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/y.png)
 
+However, if the user now changes the peak width (FWHM), f(x) changes and the simulated peak height y is not equal to given peak height Y anymore. In order to fix the value of f(x) to 1, when x=X=x0, it should be scaled. For that the real FWHM, FWHM0, is calculated from the equation
 
+![fx1](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/fx1.png)
+
+and we get FWHM0≈0,94. If the user changes peak width, f(x) should be scaled by FWHM/FWHM0. 
+
+The equation for the simulated spectrum is the sum of all the simulated peaks ysim
+
+![ysim](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/ysim.png)
 
 Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
 
