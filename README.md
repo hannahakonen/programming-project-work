@@ -45,11 +45,10 @@ The structure of the code:
 ## Files
 
 ### doc
-- spectrum simulation program.png: screenshot of the program
+- SrU2F12_Raman.txt: model for the input text file containing the molecule’s ideal vibration spectrum
 - Spektrisimulaatio Yleissuunnitelma.pdf: general plan in Finnish
 - Spektrisimulaatio Tekninen suunnitelma: technical plan in Finnish
 - Spektrisimulaatio Raportti: project report in Finnish
-- SrU2F12_Raman.txt: model for the input text file containing the molecule’s ideal vibration spectrum
 
 ### src
 - main.py
@@ -61,7 +60,7 @@ The structure of the code:
 ## Instructions
 - program is started by running main.py
 - input spectrum is opened as a text file from the File menu: Open
-- only the rows having two numbers are read by the program: frequency (cm^-1) and peak intensity 
+- only the correct rows having two numbers are read by the program: frequency (cm^-1) and peak intensity 
 - figure can be adjusted by the navigation toolbar
 - visibility of the computational peaks is selected with the Peaks checkbox 
 - the width of the peaks in the simulated spectrum can be changed with the Peak Width text field
