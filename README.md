@@ -8,7 +8,7 @@ This spectrum simulation program reads molecule’s ideal vibration spectrum (fr
 
 ![Text file](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/text%20file%20example.png)
 
-and draws the original peaks and the spectrum simulating an experimental spectrum:
+and draws the original peaks (black) and the spectrum simulating an experimental spectrum (red):
 
 ![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
 
