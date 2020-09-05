@@ -6,11 +6,6 @@ Project work for the python programming course 2 (Aalto University): Numpy, Matp
 To be translated:
 Projektityössä toteutettiin spektrisimulaatio-ohjelma. Ohjelma lukee käyttöliittymässä avatusta tekstitiedostosta molekyylin kvanttikemiallisesti lasketun spektrin ja piirtää sen sekä piikkeinä että kokeellista mittausta simuloivana spektrinä, jossa piikit on levennetty normaalijakauman tiheysfunktion avulla. Kokeellisesti mitatut piikit ovat leveämpiä johtuen mittalaitteen tarkkuudesta ja näytteestä, jolloin vierekkäiset piikit eivät erotu toisistaan. Käyttäjä voi säätää käyttöliittymässä kuvaajan asetuksia, kuten otsikoita, akseleiden välejä, piikkien leveyttä ja sitä, näkyykö piikit. Spektrin voi myös tallentaa kuvatiedostona. Projektissa myös testattiin ohjelman toimivuutta.
 
-## Installation
-NumPy: "pip install numpy"
-Matplotlib: "pip install matplotlib"
-PyQt5: "pip install PyQt5"
-
 ## Files
 
 ### doc
@@ -34,3 +29,8 @@ PyQt5: "pip install PyQt5"
 - figure can be adjusted by the navigation toolbar
 - visibility of the computational peaks is selected with the Peaks checkbox 
 - the width of the peaks in the simulated spectrum can be changed with the Peak Width text field
+
+## Installation
+NumPy: "pip install numpy"
+Matplotlib: "pip install matplotlib"
+PyQt5: "pip install PyQt5"
