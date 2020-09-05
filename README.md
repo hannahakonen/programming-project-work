@@ -33,6 +33,6 @@ Numpy is used to create the array for plotting the figure, Matplotlib to draw th
 - the width of the peaks in the simulated spectrum can be changed with the Peak Width text field
 
 ## Installation
-NumPy: "pip install numpy"
-Matplotlib: "pip install matplotlib"
-PyQt5: "pip install PyQt5"
+- NumPy: "pip install numpy"
+- Matplotlib: "pip install matplotlib"
+- PyQt5: "pip install PyQt5"
