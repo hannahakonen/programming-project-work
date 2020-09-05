@@ -4,17 +4,17 @@ Project work for the python programming basic course 2 (CS-A1121, Aalto Universi
 
 ## Introduction
 
-This spectrum simulation program reads molecule’s ideal vibration spectrum (frequency X, intensity Y) from a text file such as
+This spectrum simulation program reads molecule’s ideal vibration spectrum (frequency X, intensity Y) from a text file such as:
 
 ![Text file](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/text%20file%20example.png)
 
-and draws the original peaks and the spectrum simulating an experimental spectrum. The peaks of the simulated spectrum are widened using the probability density function of the normal distribution. The user loads a text file through the GUI and can adjust the figure settings and the peak width and visibility. It is also possible to save the figure as a png file. 
-
-Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
-
-The GUI:
+and draws the original peaks and the spectrum simulating an experimental spectrum:
 
 ![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
+
+The peaks of the simulated spectrum are widened using the probability density function of the normal distribution. The user loads a text file through the GUI and can adjust the figure settings and the peak width and visibility. It is also possible to save the figure as a png file. 
+
+Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
 
 The structure of the code: 
 
