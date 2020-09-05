@@ -12,7 +12,19 @@ and draws the original peaks (black) and the spectrum simulating an experimental
 
 ![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
 
-The peaks of the simulated spectrum are widened using the probability density function of the normal distribution. The user loads a text file through the GUI and can adjust the figure settings and the peak width and visibility. It is also possible to save the figure as a png file. 
+The user loads a text file through the GUI and can adjust the figure settings and the peak width and visibility. It is also possible to save the figure as a png file. 
+
+The peaks of the simulated spectrum are widened using the probability density function of the normal distribution
+
+![fx](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/fx.png)
+
+where x0 is the frequency X from the input file and the standard deviation is calculated from the full width at half maximum (FWHM) value (given by the user in the Peak width text field)
+
+![ro](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/ro.png)
+
+
+
+
 
 Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
 
