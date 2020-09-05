@@ -1,10 +1,12 @@
 # Spectrum Simulation Program by Python
 
-Project work for the python programming course 2 (Aalto University): Numpy, Matplotlib, PyQt5 
+Project work for the python programming basic course 2 (CS-A1121, Aalto University) spring 2020
 
 ## Introduction
-To be translated:
-Projektityössä toteutettiin spektrisimulaatio-ohjelma. Ohjelma lukee käyttöliittymässä avatusta tekstitiedostosta molekyylin kvanttikemiallisesti lasketun spektrin ja piirtää sen sekä piikkeinä että kokeellista mittausta simuloivana spektrinä, jossa piikit on levennetty normaalijakauman tiheysfunktion avulla. Kokeellisesti mitatut piikit ovat leveämpiä johtuen mittalaitteen tarkkuudesta ja näytteestä, jolloin vierekkäiset piikit eivät erotu toisistaan. Käyttäjä voi säätää käyttöliittymässä kuvaajan asetuksia, kuten otsikoita, akseleiden välejä, piikkien leveyttä ja sitä, näkyykö piikit. Spektrin voi myös tallentaa kuvatiedostona. Projektissa myös testattiin ohjelman toimivuutta.
+
+This spectrum simulation program reads molecule’s ideal vibration spectrum from a text file and draws the original peaks and the spectrum simulating an experimental spectrum. The peaks of the simulated spectrum are widened using the probability density function of the normal distribution. The user loads a text file through the GUI and can adjust the figure settings and the peak width and visibility. It is also possible to save the figure as a png file. 
+
+Numpy is used to create the array for plotting the figure, Matplotlib to draw the figure and PyQt5 to create the GUI. 
 
 ## Files
 
