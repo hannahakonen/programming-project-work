@@ -14,7 +14,7 @@ The GUI:
 
 The structure of the code: 
 
-![Spectrum simulation GUI](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/spectrum%20simulation%20program.png)
+![Code structure](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/code%20structure.png)
 
 ## Files
 
