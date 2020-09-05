@@ -18,7 +18,7 @@ The peaks of the simulated spectrum are widened using the probability density fu
 
 ![fx](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/fx.png)
 
-where x0 is the frequency X from the input file and the standard deviation is calculated from the full width at half maximum (FWHM) value (given by the user in the Peak width text field)
+where x0 is the frequency X from the input file and the standard deviation is calculated from the full width at half maximum ([FWHM](https://en.wikipedia.org/wiki/Full_width_at_half_maximum)) value (given by the user in the Peak width text field)
 
 ![ro](https://github.com/Katijoz/spectrum-simulation-python/blob/master/images/ro.png)
 
