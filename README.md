@@ -1,4 +1,4 @@
-##### Spectrum Simulation Program by Python
+# Spectrum Simulation Program by Python
 
 Project work for the python programming basic course 2 (CS-A1121, Aalto University) spring 2020
 
